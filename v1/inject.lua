@@ -80,7 +80,7 @@ local function HEBFWJ_fake_script() -- Scripts.LocalScript
 		local folder = workspace:WaitForChild("Doors")
 		
 		for _, item in ipairs(folder:GetChildren()) do
-			if item.IsA("Model") then
+			if item:IsA("Model") then
 				item:Destroy()
 			end
 		end
