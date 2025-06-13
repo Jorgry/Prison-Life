@@ -38,6 +38,7 @@ OpenButton.TextSize = 14.000
 UICorner.Parent = OpenButton
 
 Main.Name = "Main"
+Main.Visible = false
 Main.Parent = UI
 Main.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
 Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
